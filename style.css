@@ -1,0 +1,86 @@
+/**
+ * Building a Wireframe
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+ body{
+     background-color:#777;
+     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+     color: #777;
+     width: 960px;
+     font-size: 18px;
+     border: 1px solid black;
+     text-align: center;
+ }
+
+ header{
+     background-color: #ebebeb;
+     color: gray;
+     margin: 10px 100px 5px;
+     padding: 35px;
+     text-align: center;
+     width: 750px;
+ }
+
+ nav{
+    background-color: #ebebeb;
+    color: gray;
+    margin: 10px 100px 10px;
+    padding: 35px; 
+    width: 750px;
+
+ }
+ #leftSection{
+    background-color:#ebebeb;
+    margin: 10px 100px 15px;
+    color: gray;  
+    padding-top: 30px;
+    width: 45%;
+    height: 270px;
+    float: left;   
+ }
+
+ #article{
+      background-color: #777;
+      color:  #ebebeb;
+      height: 75%;
+      border: 1px solid gray;
+      margin: 25px 15px 5px; 
+      padding-top: 10px;
+ }
+ #h1{
+    background-color: #ebebeb;
+    color: gray;
+    margin: 15px 20px 10px;
+    border: 1px solid white;
+    padding: 15px;
+ }
+ #p{
+    background-color: #ebebeb;
+    color: gray;
+    margin: 10px 20px 10px;
+    border: 1px solid white;
+    padding: 15px;
+ }
+ #rightSection-Aside{
+    background-color: #ebebeb;
+    margin-top: 10px;
+    margin-left: -80px;
+    color: gray;
+    padding-top: 30px;
+    width: 31%;
+    height: 270px;
+    float: left;
+ }
+ footer{
+    clear: both;   
+    background-color: #ebebeb;
+    color: gray; 
+    margin: 20px 100px 10px;
+    padding: 35px;  
+    width: 750px;
+ }
